@@ -1,8 +1,9 @@
-const Logo=() =>{
+import React from 'react'
 
-    return (
-       <p>Logo</p>
-    );
-  }
+const Logo = () => {
+  return (
+    <div>Logo</div>
+  )
+}
 
-export default Logo;
+export default Logo
