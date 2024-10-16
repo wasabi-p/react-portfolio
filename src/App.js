@@ -1,14 +1,14 @@
 import './App.css';
 import Banner from './components/Banner'
 import Nav from './components/Nav';
-import Body from './components/Body';
+import Main from './components/Main';
 
 function App() {
   return (
     <div className="App">
      <Banner/>
      <Nav/>
-     <Body/>
+     <Main/>
     </div>
   );
 }

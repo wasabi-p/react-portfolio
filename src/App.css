@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+@media (min-width: 1080px) {
+  .banner {
+    height: 100vh;
+  }
+}
+.banner{
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+h1{
+  font-weight: 500;
+  line-height: 0.5;
+}
+h2{
+  font-weight: 300;
+}
