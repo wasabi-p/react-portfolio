@@ -39,13 +39,17 @@
 @media (min-width: 1080px) {
   .banner {
     height: 100vh;
+    width: 20vw;
   }
 }
 .banner{
-
-  position: relative;
+  position:relative;
   display: flex;
   flex-direction: column;
+}
+.name-title{
+  align-items: left;
+  text-align: left;
 }
 h1{
   font-weight: 500;
@@ -53,4 +57,8 @@ h1{
 }
 h2{
   font-weight: 300;
+}
+nav{
+  displaY:flex;
+  flex-direction: row;
 }

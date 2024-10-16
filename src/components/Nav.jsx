@@ -1,10 +1,10 @@
 import React from "react";
 
 const Nav = () => {
-  return <div>
+  return <nav>
     <h4>Projects </h4>
     <h4>Me</h4>
-  </div>;
+  </nav>;
 };
 
 export default Nav;
