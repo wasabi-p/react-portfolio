@@ -3,9 +3,9 @@ import React from "react";
 const ProjectList = () => {
   return (
     <div className="project-list">
-      <h4>Northcoders</h4>
-      <h4>NC News API</h4>
-      <h4>PictureMe</h4>
+      <h4>...more coming soon</h4>
+      <a>NC News API</a>
+      <a>PictureMe</a>
     </div>
   );
 };

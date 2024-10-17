@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .banner {
   position: fixed;
@@ -38,7 +39,7 @@
   margin-bottom: 1rem;
 }
 h1 {
-  font-weight: 500;
+  font-weight: 800;
   line-height: 0;
 }
 h2 {
@@ -65,6 +66,7 @@ nav {
   padding-left: 3.5rem;
   padding-right: 3.5rem;
   position: relative;
+  font-size: large;
 }
 .main-container {
   padding-top: 3rem;
@@ -72,4 +74,17 @@ nav {
   margin: 2rem;
   height: 80vh;
   text-align: left;
+}
+a {
+  font-weight: 600;
+  font-size: x-large;
+}
+a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 6px;
+}
+.project-list {
+  display: flex;
+  flex-direction: column;
 }
