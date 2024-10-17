@@ -2,8 +2,8 @@ import React from "react";
 
 const Nav = () => {
   return <nav>
-    <a>Projects </a>
-    <a>Me</a>
+    <a>projects </a>
+    <a>私</a>
   </nav>;
 };
 

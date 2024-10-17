@@ -1,60 +1,76 @@
 .App {
   text-align: center;
 }
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 .banner {
   position: fixed;
   height: 100vh;
-  width: 30vw;
+  width: 45vw;
   display: flex;
   top: 0;
   left: 0;
-  flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 @media (max-width: 1080px) {
   .banner {
-    width: 100%;
-    height: 30vh;
+    display:flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 45vh;
     position: relative;
+    justify-items: center;
+    padding-bottom: 2.5rem;
   }
+}
+.logo{
+  background-color: green;
+  padding: 5rem;
 }
 .name-title {
   display: flex;
+  position: absolute;
   flex-direction: column;
+  bottom:1.5rem;
+  left:1.5rem;
+  padding-left:2rem;
   text-align: left;
-  align-items: left;
+  font-size: small;
+  margin-bottom: 1rem;
 }
 h1 {
   font-weight: 500;
+  line-height: 0;
 }
 h2 {
+  line-height: 0;
   font-weight: 300;
-  font-size: medium;
+}
+.main {
+  background-color: black;
+  color:white;
+  height: 100vh;
+  width:auto;
+}
+@media (min-width: 1080px){
+  .main{
+    margin-left: 45vw;
+  }
 }
 nav {
   width: auto;
-  display: block;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 3rem;
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+  position: relative;
+}
+.main-container{
+
+  padding-top: 3rem;
+  padding-left:1rem;
+  margin:2rem;
+  height: 80vh;
+  text-align: left;
 }

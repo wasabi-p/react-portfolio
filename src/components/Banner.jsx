@@ -6,8 +6,8 @@ const Banner = () => {
     <div className="banner">
       <Logo />
       <div className="name-title">
-      <h1>Paul Shoreman</h1>
-      <h2>Full Stack Software Developer</h2>
+      <h1>paul shoreman</h1>
+      <h2>full stack software developer/ ui ux designer</h2>
       </div>
     </div>
   );
