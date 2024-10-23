@@ -81,8 +81,10 @@ a {
 }
 a:hover {
   text-decoration: underline;
+  cursor:pointer;
   text-decoration-thickness: 2px;
   text-underline-offset: 6px;
+  text-decoration-color: green;
 }
 .project-list {
   display: flex;
