@@ -46,14 +46,20 @@ h2 {
   line-height: 0;
   font-weight: 300;
 }
-.main {
+h3 {
+  font-weight: 800;
+}
+h4 {
+  font-weight: 400;
+}
+.main-container {
   background-color: black;
   color: white;
   height: 100vh;
   width: auto;
 }
 @media (min-width: 1080px) {
-  .main {
+  .main-container {
     margin-left: 45vw;
   }
 }
@@ -68,7 +74,7 @@ nav {
   position: relative;
   font-size: large;
 }
-.main-container {
+.main-content {
   padding-top: 3rem;
   padding-left: 1rem;
   margin: 2rem;
@@ -78,15 +84,36 @@ nav {
 a {
   font-weight: 600;
   font-size: x-large;
+  text-decoration: none;
+}
+a:link {
+  text-decoration: inherit;
+  color: inherit;
+  font-weight: inherit;
 }
 a:hover {
   text-decoration: underline;
-  cursor:pointer;
+  cursor: pointer;
   text-decoration-thickness: 2px;
   text-underline-offset: 6px;
+  text-decoration-color: green;
+}
+a:visited {
+  color: inherit;
+  text-decoration: none;
   text-decoration-color: green;
 }
 .project-list {
   display: flex;
   flex-direction: column;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  line-height: 1.25;
+}
+#links {
+  font-size: medium;
+  font-weight: 400;
 }
