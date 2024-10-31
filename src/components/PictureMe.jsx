@@ -4,6 +4,7 @@ const PictureMe = () => {
   return (
     <div className="project-details">
       <h3>Picture Me</h3>
+      <a className="links" href="/project/picture-me">hosted?</a>
       <div className="github-section">
         <h4>github</h4>
         <div className="github-links">

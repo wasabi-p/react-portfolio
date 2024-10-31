@@ -15,7 +15,7 @@ const AboutMe = () => {
         javascript | typescript | html | css | react | react native | node.js{" "}
       </h4>
       <h3>likes</h3>
-      <h4>❥ video games ❥ japan ❥ food ❥ travel ❥ photography</h4>
+      <h4><span className="heart">❥</span> computers <span className="heart">❥</span> video games <span className="heart">❥</span> japan <span className="heart">❥</span> food <span className="heart">❥</span> travel <span className="heart">❥</span> photography</h4>
       <h3>contact</h3>
       <ul>
         <li>
