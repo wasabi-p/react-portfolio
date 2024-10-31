@@ -4,9 +4,9 @@ const ProjectList = () => {
   return (
     <div className="project-list">
       <h4>...more coming soon</h4>
-      <a href="/project/:project_id">Porfolio</a>
-      <a href="/project/:project_id">NC News API</a>
-      <a href="/project/:project_id">PictureMe</a>
+      <a href="/project/portfolio">Portfolio</a>
+      <a href="/project/nc-news">NC News</a>
+      <a href="/project/picture-me">PictureMe</a>
     </div>
   );
 };

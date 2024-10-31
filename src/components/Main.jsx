@@ -2,8 +2,10 @@ import React from "react";
 import ProjectList from "./ProjectList";
 import Nav from "./Nav";
 import AboutMe from "./AboutMe";
-import ProjectPage from "./ProjectPage";
+import PictureMe from "./PictureMe";
 import { Routes, Route } from "react-router-dom";
+import NcNews from "./NcNews";
+import Portfolio from "./Portfolio";
 
 const Main = () => {
   return (
@@ -13,7 +15,9 @@ const Main = () => {
         <Routes>
           <Route path="/" element={<ProjectList />} />
           <Route path="/me" element={<AboutMe />} />
-          <Route path="/project/:project_id" element={<ProjectPage />} />
+          <Route path="/project/nc-news" element={<NcNews />} />
+          <Route path="/project/picture-me" element={<PictureMe />} />
+          <Route path="/project/portfolio" element={<Portfolio />} />
         </Routes>
       </div>
     </div>
