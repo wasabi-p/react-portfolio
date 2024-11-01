@@ -2,20 +2,25 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <div>
-      <h3>me</h3>
+    <div className="me-content">
+      <h3>about me</h3>
       <h4>
-        i am still very new to programming/ software development and i'm trying
-        to find my feet and a direction to pursue that satisfies my creative
-        itch and utilises my problem solving skills in equal measure but
-        thoroughly enjoying the learning process
+        i am still very new to software development but i'm trying
+        to find a direction to pursue that satisfies my creative
+        itch and utilises my problem solving skills in equal measure
       </h4>
-      <h3>the tech</h3>
+      <h3>the tech i use</h3>
       <h4>
         javascript | typescript | html | css | react | react native | node.js{" "}
       </h4>
       <h3>likes</h3>
-      <h4><span className="heart">❥</span> computers <span className="heart">❥</span> video games <span className="heart">❥</span> japan <span className="heart">❥</span> food <span className="heart">❥</span> travel <span className="heart">❥</span> photography</h4>
+      <h4>
+        <span className="heart">❥</span> computers{" "}
+        <span className="heart">❥</span> video games{" "}
+        <span className="heart">❥</span> japan <span className="heart">❥</span>{" "}
+        food <span className="heart">❥</span> travel{" "}
+        <span className="heart">❥</span> photography
+      </h4>
       <h3>contact</h3>
       <ul>
         <li>
