@@ -9,10 +9,6 @@ const AboutMe = () => {
         to find a direction to pursue that satisfies my creative
         itch and utilises my problem solving skills in equal measure
       </h4>
-      <h3>the tech i use</h3>
-      <h4>
-        javascript | typescript | html | css | react | react native | node.js{" "}
-      </h4>
       <h3>likes</h3>
       <h4>
         <span className="heart">❥</span> computers{" "}
@@ -20,6 +16,10 @@ const AboutMe = () => {
         <span className="heart">❥</span> japan <span className="heart">❥</span>{" "}
         food <span className="heart">❥</span> travel{" "}
         <span className="heart">❥</span> photography
+      </h4>
+      <h3>the tech i use</h3>
+      <h4>
+        javascript | typescript | html | css | react | react native | node.js{" "}
       </h4>
       <h3>contact</h3>
       <ul>

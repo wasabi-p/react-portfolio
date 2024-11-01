@@ -31,9 +31,9 @@
   flex-direction: column;
   bottom: 1.5rem;
   left: 1.5rem;
-  padding-left: 2rem;
+  padding-left: 1.5rem;
   text-align: left;
-  font-size: small;
+  font-size: calc(0.25vw + 11px);
   margin-bottom: 1rem;
 }
 h1 {
