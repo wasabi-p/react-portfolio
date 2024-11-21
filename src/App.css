@@ -158,7 +158,13 @@ ul {
 }
 .project-links{
   color:black;
-  -webkit-text-stroke: 0.75px white;
+  -webkit-text-stroke: 0.04rem white;
+  display: flex;
+  flex-direction: column;
+}
+.project-links a:visited{
+  color:black;
+  -webkit-text-stroke: 0.04rem white;
   display: flex;
   flex-direction: column;
 }
