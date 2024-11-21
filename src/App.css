@@ -1,11 +1,11 @@
 .App {
   text-align: center;
   font-family: sans-serif;
-  background-color:black
+  background-color: black;
 }
 .banner {
   position: fixed;
-  background-color:white;
+  background-color: white;
   height: 100vh;
   width: 45vw;
   display: flex;
@@ -102,8 +102,8 @@ a:visited {
   text-decoration-color: #2ecc71;
 }
 .project-list {
-  border-top:0.1rem solid #2ecc71;
-  border-bottom:0.1rem solid #2ecc71;
+  border-top: 0.1rem solid #2ecc71;
+  border-bottom: 0.1rem solid #2ecc71;
   display: flex;
   flex-direction: column;
 }
@@ -135,39 +135,39 @@ ul {
   background-color: #2ecc71;
   border-radius: 50%;
 }
-.heart{
-  color:#2ecc71;
+.heart {
+  color: #2ecc71;
 }
-.project-title{
+.project-title {
   font-size: xx-large;
-  color:white;
+  color: white;
   line-height: 0.75;
   font-weight: 600;
 }
-.project-details{
+.project-details {
   display: flex;
   flex-direction: column;
   width: 100%;
-  border-top:0.1rem solid #2ecc71;
-  border-bottom:0.1rem solid #2ecc71;
+  border-top: 0.1rem solid #2ecc71;
+  border-bottom: 0.1rem solid #2ecc71;
 }
-.project-section{
+.project-section {
   display: flex;
   align-items: flex-start;
   gap: 10px;
 }
-.project-links{
-  color:black;
+.project-links a {
+  color: black;
   -webkit-text-stroke: 0.04rem white;
   display: flex;
   flex-direction: column;
 }
-.project-links a:visited{
-  color:black;
+.project-links a:visited {
+  color: black;
   -webkit-text-stroke: 0.04rem white;
   display: flex;
   flex-direction: column;
 }
-.me-content{
-  border-top:0.1rem solid #2ecc71;
+.me-content {
+  border-top: 0.1rem solid #2ecc71;
 }
