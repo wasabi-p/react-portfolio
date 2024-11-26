@@ -15,7 +15,8 @@ const Main = () => {
       <Nav />
       <div className="main-content">
         <Routes>
-          <Route path="/" element={<ProjectList />} />
+          <Route path="/" element={<ProjectList/>}/>
+          <Route path="/projects" element={<ProjectList />} />
           <Route path="/me" element={<AboutMe />} />
           <Route path="/project/eventapp" element={<EventApp/>}/>
           <Route path="/project/nc-news" element={<NcNews />} />
