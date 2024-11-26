@@ -108,6 +108,7 @@ a:visited {
 }
 .project-list {
   border-top: 0.1rem solid #2ecc71;
+  padding-top: 0.5rem;
   border-bottom: 0.1rem solid #2ecc71;
   font-style: normal;
   display: flex;
@@ -120,7 +121,7 @@ a:visited {
 }
 .project-list-links a {
   color: rgb(247, 243, 243);
-  padding-top:0.4rem;
+  padding-top:0.45rem;
   display: flex;
   font-style: italic;
   flex-direction: column;
