@@ -3,8 +3,8 @@ import React from "react";
 const NcNews = () => {
   return (
     <div>
-      <div className="project-details">
-        <h3 className="project-title">nc news website & server api</h3>
+      <div className="project-page-details">
+        <h3 className="project-page-title">nc news website & server api</h3>
         <div className="github-section">
           <h4>github{" >>>"}</h4>
           <div className="github-links">

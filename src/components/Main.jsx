@@ -7,6 +7,7 @@ import PictureMe from "./PictureMe";
 import NcNews from "./NcNews";
 import Played from"./Played"
 import Portfolio from "./Portfolio";
+import EventApp from "./EventApp";
 
 const Main = () => {
   return (
@@ -16,6 +17,7 @@ const Main = () => {
         <Routes>
           <Route path="/" element={<ProjectList />} />
           <Route path="/me" element={<AboutMe />} />
+          <Route path="/project/eventapp" element={<EventApp/>}/>
           <Route path="/project/nc-news" element={<NcNews />} />
           <Route path="/project/picture-me" element={<PictureMe />} />
           <Route path="/project/portfolio" element={<Portfolio />} />

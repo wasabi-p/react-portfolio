@@ -3,8 +3,8 @@ import React from "react";
 const PictureMe = () => {
   return (
     <div>
-      <div className="project-details">
-        <h3 className="project-title">picture me! camera game</h3>
+      <div className="project-page-details">
+        <h3 className="project-page-title">picture me! camera game</h3>
         <div className="github-section">
           <h4>github{" >>>"}</h4>
           <div className="github-links">

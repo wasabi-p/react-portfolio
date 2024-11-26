@@ -1,7 +1,12 @@
 .App {
   text-align: center;
-  font-family: sans-serif;
+  font-family: "pc98";
   background-color: black;
+}
+@font-face {
+  font-family: "pc98";
+  src: local("KH-Dot-Kodenmachou-12-Ki"),
+    url("./fonts/KH-Dot-Kodenmachou-12-Ki.ttf") format("truetype");
 }
 .banner {
   position: fixed;
@@ -104,7 +109,26 @@ a:visited {
 .project-list {
   border-top: 0.1rem solid #2ecc71;
   border-bottom: 0.1rem solid #2ecc71;
+  font-style: normal;
   display: flex;
+  flex-direction: column;
+}
+.project-list-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+.project-list-links a {
+  color: rgb(247, 243, 243);
+  padding-top:0.4rem;
+  display: flex;
+  font-style: italic;
+  flex-direction: column;
+}
+.project-list-links a:visited {
+  color: rgb(248, 245, 245);
+  display: flex;
+  font-style: normal;
   flex-direction: column;
 }
 ul {
@@ -138,35 +162,18 @@ ul {
 .heart {
   color: #2ecc71;
 }
-.project-title {
-  font-size: xx-large;
+.project-page-title {
+  font-size: x-large;
   color: white;
-  line-height: 0.75;
+  line-height: 1;
   font-weight: 600;
 }
-.project-details {
+.project-page-details {
   display: flex;
   flex-direction: column;
   width: 100%;
   border-top: 0.1rem solid #2ecc71;
   border-bottom: 0.1rem solid #2ecc71;
-}
-.project-section {
-  display: flex;
-  align-items: flex-start;
-  gap: 10px;
-}
-.project-links a {
-  color: black;
-  -webkit-text-stroke: 0.04rem white;
-  display: flex;
-  flex-direction: column;
-}
-.project-links a:visited {
-  color: black;
-  -webkit-text-stroke: 0.04rem white;
-  display: flex;
-  flex-direction: column;
 }
 .me-content {
   border-top: 0.1rem solid #2ecc71;

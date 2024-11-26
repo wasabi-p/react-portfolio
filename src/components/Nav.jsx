@@ -5,7 +5,7 @@ const Nav = () => {
     <nav>
       <a href="/">[ projects ] </a>
       <a href="/me">[ 私 ]</a>
-      <a href="/played">[⚅ ⚀]</a>
+      <a href="/played">[??]</a>
     </nav>
   );
 };

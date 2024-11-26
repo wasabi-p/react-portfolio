@@ -3,8 +3,8 @@ import React from "react";
 const Portfolio = () => {
   return (
     <div>
-      <div className="project-details">
-        <h3 className="project-title">portfolio</h3>
+      <div className="project-page-details">
+        <h3 className="project-page-title">portfolio</h3>
         <a className="links" href="/">
           hosted
         </a>
