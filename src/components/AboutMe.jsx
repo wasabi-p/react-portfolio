@@ -5,9 +5,9 @@ const AboutMe = () => {
     <div className="me-content">
       <h3>about me</h3>
       <h4>
-        i am still very new to software development but i'm trying
-        to find a direction to pursue that satisfies my creative
-        itch and utilises my problem solving skills in equal measure
+        i am still very new to software development but i'm trying to find a
+        direction to pursue that satisfies my creative itch and utilises my
+        problem solving skills in equal measure
       </h4>
       <h3>likes</h3>
       <h4>
@@ -19,7 +19,11 @@ const AboutMe = () => {
       </h4>
       <h3>the tech i use</h3>
       <h4>
-        javascript | typescript | html | css | react | react native | node.js{" "}
+        javascript <span className="heart">|</span> typescript{" "}
+        <span className="heart">|</span> html <span className="heart">|</span>{" "}
+        css <span className="heart">|</span> react{" "}
+        <span className="heart">|</span> react native{" "}
+        <span className="heart">|</span> node.js{" "}<span className="heart">|</span> postgres <span className="heart">|</span> supabase
       </h4>
       <h3>contact</h3>
       <ul>
