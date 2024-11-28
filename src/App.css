@@ -28,6 +28,7 @@
   left: 0;
   align-items: center;
   justify-content: center;
+  overflow:hidden;
 }
 @media (max-width: 1080px) {
   .banner {
@@ -53,7 +54,7 @@
     flex-direction: row;
     font-family: "pc98-3";
     color: #2ecc71;
-    font-size: 7.5rem;
+    font-size: calc(0.20vw + 7.5rem);
   }
 }
 .banner-title {
@@ -64,7 +65,7 @@
   left: 1.5rem;
   padding-left: 1.5rem;
   text-align: left;
-  font-size: calc(0.25vw + 11px);
+  font-size: calc(0.25vw + 0.75rem);
   margin-bottom: 1rem;
 }
 h1 {
@@ -85,7 +86,7 @@ h4 {
   background-color: black;
   color: white;
   height: 100vh;
-  width: auto;
+  width:auto;
 }
 @media (min-width: 1080px) {
   .main-container {
