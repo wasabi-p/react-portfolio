@@ -4,7 +4,7 @@ const NcNews = () => {
   return (
     <div>
       <div className="project-page-details">
-        <h3 className="project-page-title">nc news website & server api</h3>
+        <h2 className="project-page-title">nc news website & server api</h2>
         <div className="github-section">
           <h4>github{" >>>"}</h4>
           <div className="github-links">

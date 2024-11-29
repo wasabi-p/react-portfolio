@@ -4,7 +4,7 @@ const PictureMe = () => {
   return (
     <div>
       <div className="project-page-details">
-        <h3 className="project-page-title">picture me! camera game</h3>
+        <h2 className="project-page-title">picture me! camera game</h2>
         <div className="github-section">
           <h4>github{" >>>"}</h4>
           <div className="github-links">

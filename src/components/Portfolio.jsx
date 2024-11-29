@@ -4,7 +4,7 @@ const Portfolio = () => {
   return (
     <div>
       <div className="project-page-details">
-        <h3 className="project-page-title">portfolio</h3>
+        <h2 className="project-page-title">portfolio</h2>
         <a className="links" href="/">
           hosted
         </a>
@@ -21,11 +21,13 @@ const Portfolio = () => {
         consider this a work in progress that i will be tweaking along my
         journey and changing up in line with my growth as a developer and
         designer.
-      </p>
-      <p>
+        <br />
+        <br/>
         this website was constructed to showcase the bits and pieces of work
         i've been tinkering with to get to grips with software developing and
-        the languages i've been exposed to so far. <br />
+        the languages i've been exposed to so far.
+        <br />
+        <br />
         all the styling and components have been made from scratch to better
         understand how css works properly.
         <br />
