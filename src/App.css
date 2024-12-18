@@ -202,7 +202,7 @@ ul {
   border-bottom: 0.1rem solid #2ecc71;
 }
 .coming-soon-text {
-  border-right: 10px solid #2ecc71; /* Ensure border color is visible */
+  border-right: 10px solid #2ecc71;
   white-space: nowrap;
   overflow: hidden;
   animation: typing 2s steps(19) forwards,
