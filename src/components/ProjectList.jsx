@@ -6,7 +6,7 @@ const ProjectList = () => {
       <div className="project-list-section">
         <h2>tech returners</h2>
         <div className="project-list-links">
-        <a href="/project/eventapp">eventapp</a>
+          <a href="/project/eventapp">eventapp</a>
         </div>
       </div>
       <div className="project-list-section">
@@ -19,10 +19,10 @@ const ProjectList = () => {
       <div className="project-list-section">
         <h2>personal</h2>
         <div className="project-list-links">
-      <a href="/project/portfolio">portfolio</a>
+          <a href="/project/portfolio">portfolio</a>
+        </div>
       </div>
-      </div>
-      <h4>more coming soon...</h4>
+      <h4 className="coming-soon-text">more coming soon...</h4>
     </div>
   );
 };

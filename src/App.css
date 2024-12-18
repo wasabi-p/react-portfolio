@@ -28,7 +28,7 @@
   left: 0;
   align-items: center;
   justify-content: center;
-  overflow:hidden;
+  overflow: hidden;
 }
 @media (max-width: 1080px) {
   .banner {
@@ -54,7 +54,7 @@
     flex-direction: row;
     font-family: "pc98-3";
     color: #2ecc71;
-    font-size: calc(0.20vw + 7.5rem);
+    font-size: calc(0.2vw + 7.5rem);
   }
 }
 .banner-title {
@@ -86,7 +86,7 @@ h4 {
   background-color: black;
   color: white;
   height: 100vh;
-  width:auto;
+  width: auto;
 }
 @media (min-width: 1080px) {
   .main-container {
@@ -200,4 +200,29 @@ ul {
 .me-details {
   border-top: 0.1rem solid #2ecc71;
   border-bottom: 0.1rem solid #2ecc71;
+}
+.coming-soon-text {
+  border-right: 10px solid #2ecc71; /* Ensure border color is visible */
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 2s steps(19) forwards,
+    cursor 0.4s step-end infinite alternate;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 19ch;
+  }
+}
+
+@keyframes cursor {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #2ecc71;
+  }
 }
