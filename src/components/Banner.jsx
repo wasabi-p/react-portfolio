@@ -7,7 +7,7 @@ const Banner = () => {
       <Logo />
       <div className="banner-title">
         <h1>paul shoreman</h1>
-        <h2>software developer/ ui designer</h2>
+        <h2>junior software developer</h2>
       </div>
     </div>
   );
